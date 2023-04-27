@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    max-width: 44rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.reporte{
+    min-width: 12rem;
+    max-width: 14rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: #99F6E4;
+    border-radius: 15px;
+}
+
+.medida{
+    font-weight: bold;
+    font-size: 2em;
+}
+p{
+    margin: 0;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(recursos/fondoChiquito.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 50%;
+    margin: 0.2rem auto 0 auto;
+    background-color: #7a6c6fa2;
+    border-radius: 15px;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    color: #CFF78F;
+    text-transform: uppercase;
+}
+ul{
+    padding: 1rem;
+}
+li{
+    display: inline;
+    margin: 1rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+li a:hover{
+    color: #072874;
+}
+main{
+    width: 50%;
+    margin: 0.2rem auto 0 auto;
+    padding: 1em;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+section *{
+display: block;
+}
+p{
+    line-height: 22px;
+    word-spacing: 5px;
+}
+img{
+    width: 50%;
+    border: 3px solid #00000000;
+    border-radius: 15px;
+    margin: 0.3rem auto;
+}
+section a{
+    width: 50%;
+    margin: 0.3rem auto;
+    padding: 0.5rem;
+    border: 0.4rem solid #2a87d6;
+    border-radius: 15px;
+    background-color: pink;
+    color: #2a87d6;
+    text-align: center;
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+section a:hover{
+    border-color: black;
+    background-color: fuchsia;
+    color: white;
+}
+

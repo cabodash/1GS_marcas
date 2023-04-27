@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f3f5;
+    color: #fff;
+}
+
+header {
+    background: #9aca40;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor-main {
+    margin-bottom: 1rem;
+}
+
+main {
+    background: #fff;
+    color: #424242;
+    padding: 1rem 0;
+}
+
+aside {
+    background: #dee5e8;
+    padding: 3.75rem 0;
+    color: #0d47a1;
+}
+
+.widgets {
+    margin-bottom: 1rem;
+}
+
+.widgets>div {
+    background: #2196f3;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer {
+    padding: 1rem 0;
+    background: #1e1e1e;
+}

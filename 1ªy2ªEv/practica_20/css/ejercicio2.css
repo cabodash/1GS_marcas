@@ -1,0 +1,46 @@
+*{
+box-sizing: border-box;
+
+}
+body{
+    background-color: #F1F5F9;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    width: 11%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+h2{
+    color: #acbcff;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    background-color: #c2cdfc;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+
+
+p{
+    width: 70%;
+}

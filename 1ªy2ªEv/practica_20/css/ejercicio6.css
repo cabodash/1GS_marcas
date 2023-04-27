@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile:nth-child(2n) div{
+    align-items: flex-end;
+    text-align: end;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 2em;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.profile:nth-child(2n){
+    flex-direction: row-reverse;
+
+}
+.profile-role{
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.profile-img{
+	width: 200px;
+	height: 100px;
+	object-fit: cover;
+}
+main{
+    margin-top: 10em;
+}
+

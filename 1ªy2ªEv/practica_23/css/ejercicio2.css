@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto;
+    height: 100vh;
+    align-content: start;
+}
+header, footer{
+    background: #E0F2FE;
+    padding: 2rem;
+}
+main{
+    padding: 2rem;
+}
+footer {
+    grid-row: 3 / 4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

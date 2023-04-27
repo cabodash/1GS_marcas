@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="ej2.css">
+    <title>Práctica 26</title>
+</head>
+
+<!-- Los tamaños de Columna en Bootsrap 5 son:
+			.col 		Extra Pequeño (Extra Small) - Smartphones Vertical		Menos de 576px
+			.col-sm 	Pequeño (Small) - Smartphones Horizontal 				Mas de 576px y Menos de 768px
+			.col-md 	Mediano (Medium) - Tablets 								Mas de 768px y Menos de 992px
+			.col-lg 	Largo (Large) - Computadoras							Mas de 992px y Menos de 1200px
+			.col-xl 	Extra Largo (Extra Large) - Computadoras				Mas de 1200px
+			.col-xxl 	Extra Extra Largo (Extra Extra Large) - Televisiones 	Mas de 1400px
+		-->
+
+<body>
+    <div class="container-fluid d-block mt-md-3 mb-md-5" >
+
+        <!-- ---HEADER--- -->
+        <header class="row ">
+            <div class="col-12">
+                <h1>Header</h1>
+                <p>12 Columnas</p>
+            </div>
+        </header>
+
+        <section class="row contenedor-main">
+            <!-- ---MAIN--- -->
+            <main class="col-12 col-md-8 px-4">
+                <h2>MAIN</h2>
+                <p class="d-none d-md-block">8 Columnas</p>
+                <p class="d-block d-md-none">12 Columnas</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                    unde impedit veniam quis. Explicabo eligendi consequuntur dolor quia
+                    nisi deleniti unde voluptatibus mollitia? Fuga est molestias
+                    voluptate recusandae delectus quidem!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
+                    ipsa, consequuntur nemo omnis iusto, quo quis ut corrupti quasi
+                    maiores quidem minus possimus laudantium, beatae tenetur quibusdam
+                    a. Consequatur, explicabo?
+                </p>
+            </main>
+
+            <!-- ---ASIDE--- -->
+            <aside class="col-12 col-md-4 px-4 align-self-center">
+                <h3>ASIDE</h3>
+                <p class="d-none d-md-block">4 Columnas</p>
+                <p class="d-block d-md-none">12 Columnas</p>
+            </aside>
+        </section>
+
+        <!-- ---WIDGETS--- -->
+        <section class="row justify-content-between widgets">
+            <div class="col-12 col-md-4 col-lg-3 px-4">
+                <p class="d-none d-lg-block">3 Columnas</p>
+                <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                <p class="d-block d-md-none">12 Columnas</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 px-4">
+                <p class="d-none d-lg-block">3 Columnas</p>
+                <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                <p class="d-block d-md-none">12 Columnas</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 px-4">
+                <p class="d-none d-lg-block">3 Columnas</p>
+                <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                <p class="d-block d-md-none">12 Columnas</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </section>
+
+        <!-- ---FOOTER--- -->
+        <footer class="row px-3 ">
+            <div class="col-12">
+                <h4>Footer</h4>
+                <p>12 Columnas</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

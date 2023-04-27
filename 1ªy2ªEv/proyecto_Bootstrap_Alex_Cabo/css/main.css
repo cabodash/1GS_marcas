@@ -1,0 +1,44 @@
+body{
+    background-color: #eaf1f7;
+}
+
+/* Margen para que no se solape el carrousel */
+.margen-container{
+    margin-top: 5rem;
+}
+/* Propiedad para ajustar a su contenido */
+.ajustado{
+    width: fit-content;
+}
+
+/* Ajuste altura del textArea */
+.alturaTextArea{
+    max-height: 200px !important;
+    min-height: 100px !important;
+}
+
+/* Colores Personalizados */
+.morado{background-color: #563D7C; color: white;}
+
+.gris-oscuro{background-color: #444855;}
+
+.texto-grisClaro{color: lightgray; transition: all 0.3s;}
+
+.texto-grisClaro:hover{background-color: #595e6d; color: lightgray;}
+
+/* Formato/colores personalizados para botones Form */
+.formatoBoton{
+    border-radius: 3rem;
+    margin: 0 1.25rem;
+}
+.padding-botones{padding: 1rem 0;}
+
+.formatoBoton{margin: 0 0.5rem;}
+
+.colorFB{background-color: #1877f2;}
+
+.colorTwitter{background-color: #1da1f2;}
+
+.colorInsta{background-color: #c13584;}
+
+

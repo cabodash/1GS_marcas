@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    background-color: #f9f8fc;
+    font-family: Arial;
+}
+nav{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #092327;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 0;
+}
+a{
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #ef8354;
+}

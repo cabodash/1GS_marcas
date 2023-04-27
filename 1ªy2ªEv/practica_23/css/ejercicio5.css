@@ -1,0 +1,52 @@
+*{
+    marker-end: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #EDF2F8;
+}
+main{
+    display: grid;
+    gap: 2rem;
+}
+
+.morado{
+    background: #956ED4;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.gris{
+    background: #48556A;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.blanco,.blanco-largo{
+    background: white;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.oscuro{
+    background: #19212E;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+@media screen and (min-width: 1025px) {
+    main{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .morado{
+        grid-column: span 2;
+    }
+    .blanco-largo{
+        grid-column: 4;
+        grid-row: 1/ span 2;
+    }
+    .oscuro{
+        grid-column: span 2;
+    }
+}

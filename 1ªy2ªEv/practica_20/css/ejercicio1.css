@@ -1,0 +1,45 @@
+body{
+    background-color: #DDD6FE;
+    font-family: "Roboto";
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    width: 95%;
+}
+h2{
+    font-family: "Monospace";
+}
+.menu{
+    display: flex;
+    border-radius: 25px;
+    background-color: white;
+}
+.menu-start{
+    justify-content: flex-start;
+}
+.menu-end{
+    justify-content: flex-end;
+}
+.menu-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+a{
+    background-color: #EFF6FF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 5px;
+}

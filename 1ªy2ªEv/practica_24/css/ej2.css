@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		"name-block"
+		"email-block"
+		"message-block"
+		"button-block";
+    max-width: 40rem;
+    margin: 1rem auto;
+	padding: 1.5rem;
+    gap: 1rem;
+    border: 1px solid ;
+    border-color: rgb(209, 209, 209);
+}
+input[type="text"],input[type="email"],textarea{
+    border: 1px solid;
+    border-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    outline: 0 none;
+}
+label{
+	display: block;
+}
+input,textarea {
+	width: 100%;
+	padding: 10px;
+}
+button {
+	background-color: #ce2163;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	width: 100%;
+	padding: 0.5rem;
+	cursor: pointer;
+	display: inline-block;
+}
+#message-block{
+	grid-area: message-block;
+}
+#name-block{
+	grid-area: name-block;
+}
+#email-block{
+	grid-area: email-block;
+}
+button{
+	grid-area: button-block;
+}
+@media screen and (min-width: 530px) {
+	form{
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			"name-block message-block"
+			"email-block message-block"
+			"button-block button-block";
+	}
+}
