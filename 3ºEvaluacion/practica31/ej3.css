@@ -1,6 +1,56 @@
-.bg-red{
+.app {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+
+.app.small {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.app.medium {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+
+.app.large {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+}
+
+.app.red {
     background-color: red;
 }
-.text-white{
-    color: white;
+
+.app.green {
+    background-color: green;
+}
+
+.app.blue {
+    background-color: blue;
+}
+
+.app.yellow {
+    background-color: yellow;
+}
+
+.app.pink {
+    background-color: pink;
+}
+
+.app.purple {
+    background-color: purple;
+}
+
+.app.orange {
+    background-color: orange;
 }
